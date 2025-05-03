@@ -31,3 +31,9 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+package.json
+pnpm-lock.yaml
+README.md
+tsconfig.json
+wrangler.jsonc
