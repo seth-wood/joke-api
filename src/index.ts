@@ -1,6 +1,15 @@
+// Simple joke API
+// This API provides a random joke and allows fetching a specific joke by ID.
+// The jokes are stored in a local array and can be easily modified.
+// The API is built using the Hono framework, which is lightweight and fast.
+// The API has two endpoints:
+// 1. GET /joke - Returns a random joke from the list.
+// 2. GET /joke/:id - Returns a specific joke by its ID.
+// The API is designed to be simple and easy to use, making it a great choice for developers looking to add a joke feature to their applications.
+// The jokes are stored in a local array and can be easily modified.
+
 import { Hono } from "hono";
 import JOKES from "./jokes";
-import { parse } from "hono/utils/cookie";
 
 const app = new Hono();
 
